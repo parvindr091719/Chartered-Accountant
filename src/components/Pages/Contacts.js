@@ -41,7 +41,7 @@ const Contact = () =>{
                                     </div>
                                     <div className="form-group">
                                         <label className="mb-1">Subject</label>
-                                        <input type="text" className="form-control" placeholder="E-mail Address" />
+                                        <input type="text" className="form-control" placeholder="Write your subject?" />
                                     </div>
                                     <div className="form-group">
                                         <label className="mb-1">Message</label>
