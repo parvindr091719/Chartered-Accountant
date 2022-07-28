@@ -40,6 +40,10 @@ const Contact = () =>{
                                         <input type="text" className="form-control" placeholder="E-mail Address" />
                                     </div>
                                     <div className="form-group">
+                                        <label className="mb-1">Subject</label>
+                                        <input type="text" className="form-control" placeholder="E-mail Address" />
+                                    </div>
+                                    <div className="form-group">
                                         <label className="mb-1">Message</label>
                                         <textarea rows="3" className="form-control" placeholder="Type your messages...."></textarea>
                                     </div>
