@@ -16,7 +16,7 @@ function Home(){
                             <h3 className="main-heading">Our Company</h3>
                             <div className="underline mx-auto"></div>
                             <p>
-                                Chartered Accountant & Business Intelligence Consultant in Old Kondli, 
+                                Chartered Accountants & Business Intelligence Consultant in Old Kondli, 
                                 Near Kalyanipuri Nala, Behind Canara Bank, Delhi-110096
                             </p>
                             <p>
