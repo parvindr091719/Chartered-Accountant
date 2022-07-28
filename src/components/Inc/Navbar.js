@@ -10,7 +10,7 @@ const Navbar = () => {
 
                         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                             <div class="container-fluid">
-                                <Link to="/" className="navbar-brand">Chartered Accountant</Link>
+                                <Link to="/" className="navbar-brand">Chartered Accountants</Link>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -27,7 +27,7 @@ const Navbar = () => {
                                         </li>
                                     </ul>
                                     <span class="navbar-text text-white">
-                                        Mr. Suraj Bhadai
+                                        Mr. Suraj Badhai
                                     </span> &npam
                                     <a target="_blank" id="action-list-11" class="dtKbfb  oYxtQd" 
                                     href="https://api.whatsapp.com/send?phone=918127976296&amp;text=" 
