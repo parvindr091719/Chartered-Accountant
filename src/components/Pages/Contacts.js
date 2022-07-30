@@ -1,7 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import contact1 from "../Images/contact1.jpg"
 
 const Contact = () =>{
+        const formSubmit=(e)=>{
+        e.preventDefault();
+        }
     return (
         <div>
             <section className="py-4 bg-info">
@@ -24,7 +27,7 @@ const Contact = () =>{
                     <div className="card shadow">
                         <div className="card-body">
                             <div className="row">
-                                <div className="col-md-6">
+                                <div className="col-md-6" onSubmit="formSubmit">
                                     <h6>Contact Form</h6>
                                     <hr/>
                                     <div className="form-group">
@@ -48,7 +51,7 @@ const Contact = () =>{
                                         <textarea rows="3" className="form-control" placeholder="Type your messages...."></textarea>
                                     </div>
                                     <div className="form-group py-3">
-                                        <button type="button" className="btn btn-primary shadow w-100">Send Message</button>
+                                        <button type="submit" className="btn btn-primary shadow w-100">Send Message</button>
                                     </div>
                                 </div>
                                 <div className="col-md-6 border-start">
