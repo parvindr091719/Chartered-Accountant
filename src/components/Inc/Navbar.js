@@ -29,7 +29,7 @@ const Navbar = () => {
                                     <span class="navbar-text text-white">
                                         Mr. Suraj Badhai
                                     </span> &npam
-                                    <a target="_blank" id="action-list-11" class="dtKbfb  oYxtQd" 
+                                    <a target="_blank" id="action-list-11" class="dtKbfb  oYxtQd" rel="noreferrer" 
                                     href="https://api.whatsapp.com/send?phone=918127976296&amp;text=" 
                                     ><span>WhatsApp</span></a>
                                 </div>
