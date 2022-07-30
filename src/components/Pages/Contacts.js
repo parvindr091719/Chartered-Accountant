@@ -1,10 +1,8 @@
-import React, {useState} from "react";
+import React from "react";
 import contact1 from "../Images/contact1.jpg"
 
 const Contact = () =>{
-        const formSubmit=(e)=>{
-        e.preventDefault();
-        }
+
     return (
         <div>
             <section className="py-4 bg-info">
@@ -27,7 +25,7 @@ const Contact = () =>{
                     <div className="card shadow">
                         <div className="card-body">
                             <div className="row">
-                                <div className="col-md-6" onSubmit="formSubmit">
+                                <div className="col-md-6">
                                     <h6>Contact Form</h6>
                                     <hr/>
                                     <div className="form-group">
