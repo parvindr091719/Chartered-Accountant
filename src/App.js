@@ -5,6 +5,7 @@ import Navbar from "./components/Inc/Navbar";
 import Home from "./components/Pages/Home.js"
 import About from "./components/Pages/About.js"
 import Contact from "./components/Pages/Contacts.js"
+import Calculater_Currency from "./components/Pages/Calculater_Currency";
 import Footer from "./components/Inc/Footer";
 
 function App(){
@@ -15,6 +16,7 @@ function App(){
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="calculater-currency" element={<Calculater_Currency/>} />
       </Routes>
       <Footer/>
     </div>

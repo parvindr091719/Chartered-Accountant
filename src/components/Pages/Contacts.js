@@ -3,6 +3,12 @@ import contact1 from "../Images/contact1.jpg"
 
 const Contact = () =>{
 
+
+    function Alert (){
+        alert("Done")
+    }
+
+
     return (
         <div>
             <section className="py-4 bg-info">
@@ -26,6 +32,7 @@ const Contact = () =>{
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-6">
+
                                     <h6>Contact Form</h6>
                                     <hr/>
                                     <div className="form-group">
@@ -49,7 +56,8 @@ const Contact = () =>{
                                         <textarea rows="3" className="form-control" placeholder="Type your messages...."></textarea>
                                     </div>
                                     <div className="form-group py-3">
-                                        <button type="submit" className="btn btn-primary shadow w-100">Send Message</button>
+                                        <button type="submit" className="btn btn-primary shadow w-100"
+                                         onClick={Alert}>Send Message</button>
                                     </div>
                                 </div>
                                 <div className="col-md-6 border-start">

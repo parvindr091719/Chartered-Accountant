@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background-color: #161616;
+    color: rgb(15, 14, 14);
+    padding: 50px;
+    justify-content: center;
+}
+
+.Currency-Input{
+    margin-right: 91px;
+    justify-items: center;
+    align-items: center;
+}
+
+.currency-body{
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+}
